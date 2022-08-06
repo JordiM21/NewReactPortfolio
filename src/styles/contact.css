@@ -1,0 +1,94 @@
+.contact-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.contact-left h1{
+    font-size: 6rem;
+    color: #97cbdc;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.contact-left span{
+    transition: 0.3s ease;
+}
+.contact-left p{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+}
+.contact-left p span:hover{
+    text-decoration: underline;
+}
+
+.contact-left span:hover{
+    color: #ff7700 ;
+    font-weight: 200;
+    text-shadow: 5px 5px 15px black;
+}
+.send-email{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 3px solid #082a3e;
+    padding: 20px;
+    color: #082a3e;
+    transition: 0.3s ease;
+    margin: 0 110px;
+    font-size: 1.2rem;
+}
+.send-email:hover{
+    background-color: aliceblue;
+}
+.shut-social{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-contact {
+    display: flex;
+}
+.shut-social a{
+    text-decoration: none;
+    color: #082a3e;
+    letter-spacing: 2px;
+    border: 2px solid #082a3e;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+}
+.shut-social a:hover{
+    background-color: aliceblue;
+}
+.shut-social svg{
+    color: #082a3e;
+    font-size: 30px;
+}
+.contact-right h2{
+    color: #97cbdc;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+.contact-right h2:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 1050px) {
+    .contact-flex-container{
+        flex-direction: column;
+        height: max-content;
+        
+    }
+    .contact-right{
+        margin-bottom: 100px;
+        
+    }
+    .contact-right img{
+        margin-top: 70px;
+    }
+}

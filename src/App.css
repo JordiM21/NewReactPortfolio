@@ -1,0 +1,21 @@
+*{
+    font-family: 'Anton', sans-serif;
+}
+body{
+    background: linear-gradient(45deg, #01335f, #019dd6);
+}
+.main{
+    margin-left: 5rem;
+    padding: 1rem;
+    color: #0c0c0c;
+}
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+    background-color: #019dd6;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #072437;
+    border-radius: 10px;
+}
