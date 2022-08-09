@@ -1,6 +1,9 @@
 import React from 'react';
 import projects from '../styles/projects.css'
-
+import reactEcommerce from '../assets/react-ecommerce.png'
+import reactHttpMethods from '../assets/react-http-methods.png'
+import reactPokedex from '../assets/react-pokedex.png'
+import reactRickMorty from '../assets/react-rick-morty.png'
 
 const Projects = () => {
     return (
