@@ -4,6 +4,7 @@ import reactEcommerce from '../assets/react-ecommerce.png'
 import reactHttpMethods from '../assets/react-http-methods.png'
 import reactPokedex from '../assets/react-pokedex.png'
 import reactRickMorty from '../assets/react-rick-morty.png'
+import designFont from '../assets/design-font.png'
 
 const Projects = () => {
     return (
@@ -63,7 +64,7 @@ const Projects = () => {
                     </div>
                     <div>
                         <p className='title2'>React Rick and Morty's Crud</p>
-                        <img src={reactRickMorty} alt="" />
+                        <img src={designFont} alt="" />
                     </div>
                     <div>
                         <p className='title3'>React Pokedex</p>
