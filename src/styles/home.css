@@ -63,15 +63,15 @@
         left: 35%;
     }
 }
-/* large screens */
-@media only screen and (min-width: 800px) {
-    
-}
 /* small screens */
 @media only screen and (max-width: 550px) {
     .flat-button{
-        top: 500px;
+        top: 400px;
         left: 28%;
+    }
+    .home-title h1{
+        letter-spacing: 1.2px;
+        font-size: 2.2rem;
     }
 }
 /* large screens */
