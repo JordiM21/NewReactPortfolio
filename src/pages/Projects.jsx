@@ -5,6 +5,8 @@ import reactHttpMethods from '../assets/react-http-methods.png'
 import reactPokedex from '../assets/react-pokedex.png'
 import reactRickMorty from '../assets/react-rick-morty.png'
 import designFont from '../assets/design-font-projects.png'
+import designCharacter from '../assets/design-character-projects.png'
+import brandingLogo from '../assets/branding-logo.png'
 
 const Projects = () => {
     return (
@@ -59,16 +61,16 @@ const Projects = () => {
                         Design
                     </h1>
                     <div>
-                        <p className='title1'>React Ecommerce</p>
+                        <p className='title1'>Custome Fonts</p>
                         <img src={designFont} alt="" />
                     </div>
                     <div>
-                        <p className='title2'>React Rick and Morty's Crud</p>
-                        <img src={designFont} alt="" />
+                        <p className='title2'>Custom Character Design</p>
+                        <img src={designCharacter} alt="" />
                     </div>
                     <div>
-                        <p className='title3'>React Pokedex</p>
-                        <img src={reactPokedex} alt="" />
+                        <p className='title3'>Branding</p>
+                        <img src={brandingLogo} alt="" />
                     </div>
                     <div>
                         <p className='title4'>Http User Methods</p>
