@@ -72,10 +72,6 @@ const Projects = () => {
                         <p className='title3'>Branding</p>
                         <img src={brandingLogo} alt="" />
                     </div>
-                    <div>
-                        <p className='title4'>Http User Methods</p>
-                        <img src={reactHttpMethods} alt="" />
-                    </div>
                 </div>
             </div>
         </div>
