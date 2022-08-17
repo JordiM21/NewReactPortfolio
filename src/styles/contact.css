@@ -1,6 +1,6 @@
 .contact-flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
 }
@@ -9,6 +9,12 @@
     color: #97cbdc;
     letter-spacing: 1.5px;
     cursor: pointer;
+    animation: title 1s ease 1s;
+}
+@keyframes title {
+    0% {letter-spacing: 1.5px;}
+    50% {transform: rotate(2.5deg) ;letter-spacing: 10px;}
+    100% {}
 }
 .contact-left span{
     transition: 0.3s ease;
@@ -18,6 +24,11 @@
     margin-top: 80px;
     margin-bottom: 25px;
     font-size: 1.4rem;
+    animation: text 1s ease;
+}
+@keyframes text {
+    0% {margin: 80px -50px 25px -50px;}
+    100% {}
 }
 .contact-left p span:hover{
     text-decoration: underline;
@@ -35,8 +46,13 @@
     padding: 18px;
     color: #082a3e;
     transition: 0.3s ease;
-    margin: 0;;
+    margin: 0;
     font-size: 1.2rem;
+    animation: button 1s ease;
+}
+@keyframes button {
+    0% {margin: 0 -200px;}
+    100% {}
 }
 .send-email:hover{
     background-color: aliceblue;
@@ -56,12 +72,18 @@
     padding: 10px;
     border-radius: 10px;
     transition: 0.4s ease;
+    margin: 5px;
+    animation: social-media 1s ease-in-out;
+}
+@keyframes social-media {
+    0% {margin-top: 200px;}
+    100% {}
 }
 .contact-right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: space-evenly;
+    gap: 0;
     text-align: center;
 }
 .shut-social a:hover{

@@ -5,6 +5,8 @@ import LogoM from '../assets/LogoM.png'
 import { Link, useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getLoadingThunk, setIsLoading } from '../store/slices/isLoading.slice';
+import character from '../assets/JordiContactMe.png'
+
 
 const Home = () => {
     const isLoading = useSelector(state => state.isLoading)
@@ -18,6 +20,7 @@ const Home = () => {
   
     return (
         <div className='main'>
+            <img className='img-absolute' src={character} alt="" />
             <div className='home-title'>
             <h1>
                 <span>H</span>
@@ -70,6 +73,7 @@ const Home = () => {
             <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
+        
     );
 };
 

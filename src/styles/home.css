@@ -3,12 +3,34 @@
     align-items: center;
     height: 100vh;
 }
+.img-absolute{
+    position: absolute;
+    max-width: 300px;
+    right: 20px;
+    top: 30px;
+    opacity: 0.8;
+    animation: loop 4s linear infinite alternate;
+}
+@keyframes loop {
+    0% {right: 20px; top: 30px;}
+    25% {right: 20px; top: 10px;}
+    75% {right: 20px; top: 50px;}
+    100% {right: 20px; top: 30px;}
+}
+
 .home-title img{
     width: 55px;
     transform: rotate(0deg);
     transition: 0.2s ease;
     cursor: pointer;
+    animation: litle-move 0.5s ease 3s;
 }
+@keyframes litle-move {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(10deg);}
+    100% {transform: rotate(0deg);}
+}
+
 .home-title img:hover{
     transform: rotate(20deg);
     transform-style: preserve-3d;
@@ -32,6 +54,12 @@
     letter-spacing: 0.3rem;
     font-weight: 400;
     margin-top: 0;
+    animation: animate-subtitle 2s ease 2s;
+}
+@keyframes animate-subtitle {
+    0% {letter-spacing: 0.3rem;}
+    50% {letter-spacing: 0.5rem;}
+    100% {letter-spacing: 0.3rem;}
 }
 .flat-button{
     border:3px solid #072437;
@@ -46,11 +74,22 @@
     transition: 0.3s ease;
     border-radius: 10px;
     top: 500px;
+    animation: home-button 1s ease-in;
 }
+@keyframes home-button {
+    0% {top: 600px;}
+    100% {}
+}
+
 .flat-button:hover{
     background-color: #adc3d0;
     color: #072437;
     border: 3px solid #072437;
+}
+@media screen and (max-width: 1150px) {
+    .img-absolute{
+        max-width: 200px;
+    }
 }
 /* small screens */
 @media only screen and (max-width: 800px) {
@@ -61,6 +100,9 @@
     .flat-button{
         top: 450px;
         left: 35%;
+    }
+    .img-absolute{
+        max-width: 150px;
     }
 }
 /* small screens */
@@ -73,8 +115,7 @@
         letter-spacing: 1.2px;
         font-size: 2.2rem;
     }
-}
-/* large screens */
-@media only screen and (min-width: 550px) {
-    
+    .img-absolute{
+        max-width: 100px;
+    }
 }

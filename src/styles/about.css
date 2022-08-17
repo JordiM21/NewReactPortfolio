@@ -18,7 +18,13 @@
     padding: 15px;
     transition: 0.3s ease;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
+    animation: button-in 0.8s ease;
+}
+@keyframes button-in {
+    0% {margin-top: 300px;}
+    50% {margin-top: 10px;}
+    100% {margin-top: 30px;}
 }
 .about-left a:hover{
     background-color: #d9d5d5;
@@ -30,6 +36,7 @@
     letter-spacing: 1.5px;
     cursor: pointer;
 }
+
 .about-left span{
     transition: 0.3s ease;
 }
@@ -52,6 +59,11 @@
     max-height: 180px;
     margin: 0 10px;
     cursor: pointer;
+    animation: img 1.5s ease-in;
+}
+@keyframes img {
+    0% {margin: 0 25px;}
+    100% {margin: 0 10px;}
 }
 .about-right span p{
     margin-top: -150px;

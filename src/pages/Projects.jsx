@@ -7,6 +7,7 @@ import reactRickMorty from '../assets/react-rick-morty.png'
 import designFont from '../assets/design-font-projects.png'
 import designCharacter from '../assets/design-character-projects.png'
 import brandingLogo from '../assets/branding-logo.png'
+import arrow from '../assets/Movement.png'
 
 const Projects = () => {
     return (
@@ -26,6 +27,7 @@ const Projects = () => {
                     <span>s</span>
                 </h1>
             </header>
+            <img className='scroll-down' src={arrow}/>
             <div className='flex-project-container'>
                 <div className='coding-section'>
                     <h1>

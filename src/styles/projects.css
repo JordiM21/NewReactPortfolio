@@ -4,8 +4,35 @@
     letter-spacing: 1.5px;
     cursor: pointer;
     text-align: center;
+    animation: title 1.5s ease 1s;
 }
-
+@keyframes title {
+    0% {letter-spacing: 1.5px;}
+    50% {letter-spacing: 15px;}
+    100% {letter-spacing: 1.5px;}    
+}
+.scroll-down{
+    max-width: 80px;
+    position: absolute;
+    position: fixed;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50, -50);
+    transform: rotate(-90deg);
+    animation: scroll 8s ease 3s;
+    opacity: 0;
+}
+@keyframes scroll {
+    0% {opacity: 0.8; bottom: 4%;}
+    12.5% {opacity: 1; bottom: 6%;}
+    25% {opacity: 1;bottom: 4%;}
+    37.5% {opacity: 1;bottom: 6%;}
+    50% {opacity: 1;bottom: 4%;}
+    62.5% {opacity: 1;bottom: 6%;}
+    75% {opacity: 1;bottom: 4%;}
+    87.5% {opacity: 1;bottom: 6%;}
+    100% {opacity: 1;bottom: 4%;}
+}
 .header span{
     transition: 0.3s ease;
 }
@@ -64,7 +91,6 @@
         margin: 0 120px;
         border-radius: 10px 10px 0px 0px;
     }
-    
 }
 @media only screen and (max-width: 780px) {
     .coding-section p{
@@ -76,12 +102,23 @@
     .coding-section p{
         margin: 0 130px;
     }
-    
+    @keyframes scroll {
+        0% {opacity: 0.8; bottom: 15%;}
+        12.5% {opacity: 1; bottom: 17.5%;}
+        25% {opacity: 1;bottom: 15%;}
+        37.5% {opacity: 1;bottom: 17.5%;}
+        50% {opacity: 1;bottom: 15%;}
+        62.5% {opacity: 1;bottom: 17.5%;}
+        75% {opacity: 1;bottom: 15%;}
+        87.5% {opacity: 1;bottom: 17.5%;}
+        100% {opacity: 1;bottom: 15%;}
+    }
 }
 @media only screen and (max-width: 620px) {
     .coding-section p{
         margin: 0 100px;
     }
+    
     
 }
 @media only screen and (max-width: 550px) {

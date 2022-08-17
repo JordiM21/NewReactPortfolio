@@ -31,8 +31,8 @@ const ContactMe = () => {
                     </div>
                 </div>
                 <div className='contact-right'>
-                    <img style={{maxWidth: '500px'}} src={JordiContactMe} alt="" />
-                    <h2>Or give me a shut on social media</h2>
+                    <img style={{maxWidth: '380px'}} src={JordiContactMe} alt="" />
+                    <h2 style={{maxWidth: '380px'}}>Though if you want to take a look at my social profiles, don't hesitate on give me a shut there!</h2>
                     <div className='shut-social'>
                         <a href="https://www.linkedin.com/in/jordi-mantilla21/" target='_blank' className='nav-contact'>
                             <h3>LinkedIn</h3>
