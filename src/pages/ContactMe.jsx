@@ -3,6 +3,7 @@ import contact from '../styles/contact.css'
 import JordiContactMe from '../assets/JordiContactMe.png'
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import EnglishCV from '../assets/EnglishCV.pdf'
 
 
 const ContactMe = () => {
@@ -22,8 +23,12 @@ const ContactMe = () => {
                     <span>M</span>
                     <span>e</span>
                     </h1>
-                    <p><span>I'm always up for a chat</span> <br /><span> Pop me an email at</span></p>
-                    <a className='send-email' target='_blank' href="mailto:jordimantilla21@gmail.com?Subject=Hey%20Jordi,%20i've%20just%20seen%20your%20portfolio">jordimantilla21@gmail.com</a>
+                    <div style={{maxWidth: '500px', maxHeight: '100vh', marginBottom:'80px'}}>
+                        <p>I am always interested on turn ideas into reality and work on interesting projects, if you would like to know a bit more about me, you can</p>
+                        <a className='send-email' download href={EnglishCV}>download my curriclum</a>
+                        <p>Let's work together! i'm always up for a chat, pop me an email at</p>
+                        <a className='send-email' target='_blank' href="mailto:jordimantilla21@gmail.com?Subject=Hey%20Jordi,%20i've%20just%20seen%20your%20portfolio">jordimantilla21@gmail.com</a>
+                    </div>
                 </div>
                 <div className='contact-right'>
                     <img style={{maxWidth: '500px'}} src={JordiContactMe} alt="" />

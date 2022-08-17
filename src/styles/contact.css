@@ -15,7 +15,8 @@
 }
 .contact-left p{
     text-align: center;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 25px;
     font-size: 1.4rem;
 }
 .contact-left p span:hover{
@@ -31,10 +32,10 @@
     text-decoration: none;
     border-radius: 10px;
     border: 3px solid #082a3e;
-    padding: 20px;
+    padding: 18px;
     color: #082a3e;
     transition: 0.3s ease;
-    margin: 0 110px;
+    margin: 0 125px;
     font-size: 1.2rem;
 }
 .send-email:hover{

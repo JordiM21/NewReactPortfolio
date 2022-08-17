@@ -47,15 +47,14 @@ const Home = () => {
                 <span>b</span>
                 <span> </span>
                 <span>F</span>
-                <span>u</span>
-                <span>l</span>
-                <span>l</span>
-                <span>-</span>
-                <span>S</span>
+                <span>r</span>
+                <span>o</span>
+                <span>n</span>
                 <span>t</span>
-                <span>a</span>
-                <span>c</span>
-                <span>k</span>
+                <span>-</span>
+                <span>E</span>
+                <span>n</span>
+                <span>d</span>
                 <span> </span>
                 <span>D</span>
                 <span>e</span>

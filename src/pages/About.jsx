@@ -25,7 +25,7 @@ const About = () => {
                         <span>M</span>
                         <span>e</span>
                     </h1>
-                    <p>I am a colombian web full-stack developer and Graphic designer, i love making creative and enjoyable things with code. <br /> My goal is to turn ideas into reality with code, there's no limit when you know the flexibility you have when creating things by your own. </p>
+                    <p>I am a colombian web front-end developer and Graphic designer, i love making creative and enjoyable things with code. <br /> My goal is to turn ideas into reality with code, there's no limit when you know the flexibility you have when creating things by your own. </p>
                     <a href="/#/projects">Wanna see more?</a>
                 </div>
                 <div className='about-right'>
