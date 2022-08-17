@@ -14,7 +14,7 @@
     transition: 0.3s ease;
 }
 .contact-left p{
-    text-align: center;
+    text-align: start;
     margin-top: 80px;
     margin-bottom: 25px;
     font-size: 1.4rem;
@@ -35,7 +35,7 @@
     padding: 18px;
     color: #082a3e;
     transition: 0.3s ease;
-    margin: 0 125px;
+    margin: 0;;
     font-size: 1.2rem;
 }
 .send-email:hover{

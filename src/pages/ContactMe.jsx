@@ -24,8 +24,8 @@ const ContactMe = () => {
                     <span>e</span>
                     </h1>
                     <div style={{maxWidth: '500px', maxHeight: '100vh', marginBottom:'80px'}}>
-                        <p>I am always interested on turn ideas into reality and work on interesting projects, if you would like to know a bit more about me, you can</p>
-                        <a className='send-email' download href={EnglishCV}>download my curriclum</a>
+                        <p>I am always interested on turn ideas into reality and work on interesting projects, if you would like to know a bit more about me, feel free to take a look at my cv.</p>
+                        <a className='send-email' download href={EnglishCV}>JordiCV</a>
                         <p>Let's work together! i'm always up for a chat, pop me an email at</p>
                         <a className='send-email' target='_blank' href="mailto:jordimantilla21@gmail.com?Subject=Hey%20Jordi,%20i've%20just%20seen%20your%20portfolio">jordimantilla21@gmail.com</a>
                     </div>
