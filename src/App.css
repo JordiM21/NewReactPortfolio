@@ -19,3 +19,6 @@ body::-webkit-scrollbar-thumb{
     background-color: #072437;
     border-radius: 10px;
 }
+.navbar{
+    z-index: 1;
+}

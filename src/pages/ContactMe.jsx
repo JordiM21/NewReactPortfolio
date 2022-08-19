@@ -1,6 +1,6 @@
 import React from 'react';
 import contact from '../styles/contact.css'
-import JordiContactMe from '../assets/JordiContactMe.png'
+import JordiContactMe from '../assets/finalCharacter.png'
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import EnglishCV from '../assets/EnglishCV.pdf'
