@@ -1,117 +1,130 @@
-.contact-flex-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
+.contact-flex-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
 }
-.contact-left h1{
-    font-size: 6rem;
-    color: #97cbdc;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-    animation: title 1s ease 1s;
+.contact-left h1 {
+	font-size: 6rem;
+	color: #97cbdc;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	animation: title 1s ease 1s;
 }
 @keyframes title {
-    0% {letter-spacing: 1.5px;}
-    50% {transform: rotate(2.5deg) ;letter-spacing: 10px;}
-    100% {}
+	0% {
+		letter-spacing: 1.5px;
+	}
+	50% {
+		transform: rotate(2.5deg);
+		letter-spacing: 10px;
+	}
+	100% {
+	}
 }
-.contact-left span{
-    transition: 0.3s ease;
+.contact-left span {
+	transition: 0.3s ease;
 }
-.contact-left p{
-    text-align: start;
-    margin-top: 80px;
-    margin-bottom: 25px;
-    font-size: 1.4rem;
-    animation: text 1s ease;
+.contact-left p {
+	text-align: start;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	font-size: 1.4rem;
+	animation: text 1s ease;
 }
 @keyframes text {
-    0% {margin: 80px -50px 25px -50px;}
-    100% {}
+	0% {
+		margin: 80px -50px 25px -50px;
+	}
+	100% {
+	}
 }
-.contact-left p span:hover{
-    text-decoration: underline;
+.contact-left p span:hover {
+	text-decoration: underline;
 }
 
-.contact-left span:hover{
-    color: #ff7700 ;
-    font-weight: 200;
-    text-shadow: 5px 5px 15px black;
+.contact-left span:hover {
+	color: #ff7700;
+	font-weight: 200;
+	text-shadow: 5px 5px 15px black;
 }
-.send-email{
-    text-decoration: none;
-    border-radius: 10px;
-    border: 3px solid #082a3e;
-    padding: 18px;
-    color: #082a3e;
-    transition: 0.3s ease;
-    margin: 0;
-    font-size: 1.2rem;
-    animation: button 1s ease;
+.send-email {
+	text-decoration: none;
+	border-radius: 10px;
+	border: 3px solid #082a3e;
+	padding: 18px;
+	color: #082a3e;
+	transition: 0.3s ease;
+	margin: 0;
+	font-size: 1.2rem;
+	animation: button 1s ease;
 }
 @keyframes button {
-    0% {margin: 0 -200px;}
-    100% {}
+	0% {
+		margin: 0 -200px;
+	}
+	100% {
+	}
 }
-.send-email:hover{
-    background-color: aliceblue;
+.send-email:hover {
+	background-color: aliceblue;
 }
-.shut-social{
-    display: flex;
-    justify-content: space-between;
+.shut-social {
+	display: flex;
+	justify-content: space-evenly;
 }
 .nav-contact {
-    display: flex;
+	display: flex;
 }
-.shut-social a{
-    text-decoration: none;
-    color: #082a3e;
-    letter-spacing: 2px;
-    border: 2px solid #082a3e;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.4s ease;
-    margin: 5px;
-    animation: social-media 1s ease-in-out;
+.shut-social a {
+	text-decoration: none;
+	color: #082a3e;
+	letter-spacing: 2px;
+	border: 2px solid #082a3e;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.4s ease;
+	margin: 5px;
+	animation: social-media 1s ease-in-out;
 }
 @keyframes social-media {
-    0% {margin-top: 200px;}
-    100% {}
+	0% {
+		margin-top: 200px;
+	}
+	100% {
+	}
 }
-.contact-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 0;
-    text-align: center;
+.contact-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 0;
+	text-align: center;
 }
-.shut-social a:hover{
-    background-color: aliceblue;
+.shut-social a:hover {
+	background-color: aliceblue;
 }
-.shut-social svg{
-    color: #082a3e;
-    font-size: 30px;
+.shut-social svg {
+	color: #082a3e;
+	font-size: 30px;
 }
-.contact-right h2{
-    color: #97cbdc;
-    font-weight: 400;
-    transition: 0.5s ease;
+.contact-right h2 {
+	color: #97cbdc;
+	font-weight: 400;
+	transition: 0.5s ease;
 }
-.contact-right h2:hover{
-    text-decoration: underline;
+.contact-right h2:hover {
+	text-decoration: underline;
 }
 @media only screen and (max-width: 1050px) {
-    .contact-flex-container{
-        flex-direction: column;
-        height: max-content;
-        
-    }
-    .contact-right{
-        margin-bottom: 100px;
-        
-    }
-    .contact-right img{
-        margin-top: 70px;
-    }
+	.contact-flex-container {
+		flex-direction: column;
+		height: max-content;
+	}
+	.contact-right {
+		margin-bottom: 100px;
+	}
+	.contact-right img {
+		margin-top: 70px;
+	}
 }
